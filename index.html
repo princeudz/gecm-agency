@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GECM – Global Engagement & Creative Media</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png" alt="GECM Logo" />
+        <span class="tagline">Global Engagement & Creative Media</span>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1 data-aos="fade-up">Your One-Stop Digital Agency</h1>
+      <p data-aos="fade-up" data-aos-delay="100">Delivering creative, tech and marketing solutions with speed and global collaboration.</p>
+      <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="200">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <section class="carousel" data-aos="fade-in">
+    <div class="slider" id="slider">
+      <div class="slide" style="background-image: url('images/slide1.jpg');">
+        <div class="slide-content">Creative Web Design</div>
+      </div>
+      <div class="slide" style="background-image: url('images/slide2.jpg');">
+        <div class="slide-content">Digital Marketing Campaigns</div>
+      </div>
+      <div class="slide" style="background-image: url('images/slide3.jpg');">
+        <div class="slide-content">Brand Strategy & Visuals</div>
+      </div>
+      <div class="slide" style="background-image: url('images/slide4.jpg');">
+        <div class="slide-content">Collaborative Global Teams</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2 data-aos="fade-up">Our Services</h2>
+      <div class="cards">
+        <div class="card" data-aos="zoom-in">
+          <h3>Web Development</h3>
+          <p>Modern, responsive, fast-loading, and SEO-optimized websites.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <h3>Graphic Design</h3>
+          <p>Brand identity, social media creatives, and digital visuals.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Marketing</h3>
+          <p>Ad campaigns, funnels, social media growth & more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About GECM Agency</h2>
+      <p>We are a full-service creative and media agency combining in-house experts and agency collaboration. We deliver fast, globally, and with impact.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">
+          <img src="images/instagram.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 GECM Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
